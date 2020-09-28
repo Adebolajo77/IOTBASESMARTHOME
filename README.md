@@ -74,7 +74,9 @@ Within the download you'll find the following directories and files:
 IOTBASESMARTHOME/
 |-------|phpserver_client side image/
 |             |---Capture.JPG
-|             |---temperature and humidityRead.JPG
+|             |---IMG_20200928_141241.JPG
+|             |---IMG_20200928_141247.JPG
+|             |---IMG_20200928_141219_S01.MP4
 |-------|arduinoCodeClient/
 |             |---arduinoCodeClient.ino
 |---------|nxt/
