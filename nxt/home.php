@@ -230,7 +230,7 @@
 			
 				// AJAX CALL
 				var xhr = new XMLHttpRequest();
-				xhr.open('POST',"http://192.168.43.9:80/switches");
+				xhr.open('POST',"http://IP ADDRESS:PORT/switches");  //INSERT THE MICROCONTOLLERS IP ADDRESS
 				xhr.send(data);
 				return false;
 		    }
