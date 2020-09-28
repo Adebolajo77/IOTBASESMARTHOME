@@ -6,7 +6,7 @@
 ![VISUAL DISPLAY](https://github.com/Adebolajo77/IOTBASESMARTHOME/blob/master/Server-Client%20side%20Image/temperature%20and%20humidityReadings.JPG)
 
 
-![realTime](https://github.com/Adebolajo77/IOTBASESMARTHOME/blob/master/Server-Client%20side%20Image/VID_20200928_141419_s01.mp4)
+![realTime](https://github.com/Adebolajo77/IOTBASESMARTHOME/blob/master/Server-Client%20side%20Image/IMG_20200928_141247.jpg)
 
 
 
