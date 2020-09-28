@@ -1,6 +1,9 @@
 
 
-![](https://github.com/Adebolajo77/IOTBASESMARTHOME/blob/master/Server-Client%20side%20Image/Capture.JPG)
+![CONTROL AND DISPLAY](https://github.com/Adebolajo77/IOTBASESMARTHOME/blob/master/Server-Client%20side%20Image/Capture.JPG)
+
+
+![VISUAL DISPLAY](https://github.com/Adebolajo77/IOTBASESMARTHOME/blob/master/Server-Client%20side%20Image/temperature%20and%20humidityReadings.JPG)
 
 
 
