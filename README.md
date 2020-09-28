@@ -1,4 +1,4 @@
-![alt text](git clone https://github.com/Adebolajo77/IOTBASESMARTHOME/Server-Client side Image/Capture.JPG?raw=true)
+![](https://github.com/Adebolajo77/IOTBASESMARTHOME/Server-Client side Image/Capture.JPG?raw=true)
 
 Arduino client - PHP Server project is a simple communication system designed with Arduino and PHP. PHP acts the server, while arduino acts as the client who communicates to the server. The client makes a post request to the server using an API and the server responds back and also send a post request to the micontroller to controll the peripherals 
 
