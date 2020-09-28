@@ -103,8 +103,8 @@
                   <?php
 
 
-                    $link = mysqli_connect('localhost','root','') or die('Cannot connect to the DB');
-                    mysqli_select_db($link,'datamonitoringcontrol') or die('Cannot select the DB');
+                    $link = mysqli_connect('localhost','root','') or die('Cannot connect to the DB');    //can be replace with databae table of FOUR(4) column 
+                    mysqli_select_db($link,'datamonitoringcontrol') or die('Cannot select the DB');      //ID(KEY AUTO INCREMENT),temperature(INT),humidity(INT),date(DATESTAMP)
 
                     $sql = 'SELECT * FROM datacontrol ';
                     $result = mysqli_query($link,$sql) or die('Errant query:  '.$sql);
