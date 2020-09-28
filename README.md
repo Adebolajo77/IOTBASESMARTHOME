@@ -1,4 +1,4 @@
-
+SMART IOT BASED HOME AUTOMATION STYSTEM
 
 ![CONTROL AND DISPLAY](https://github.com/Adebolajo77/IOTBASESMARTHOME/blob/master/Server-Client%20side%20Image/Capture.JPG)
 
@@ -10,25 +10,18 @@
 
 
 
-Arduino client - PHP Server project is a simple communication system designed with Arduino and PHP. PHP acts the server, while arduino acts as the client who communicates to the server. The client makes a post request to the server using an API and the server responds back and also send a post request to the micontroller to controll the peripherals 
-
-The objective of this project was to use an Arduino compactable microcontroller(ESP8266) to read a sensor controll some perpherals connected to the microntroller pin and send the values to the internet, to be stored in a Web Server and displayed.
-
-It consists in an ESP8266(NODEMCU) w and a DHT 22 TEMPERATURE / HUMIDITY SENSOR, acting as a Web Client and Server. It sends POST requests with the readings to a web server running a custom Database and PHP application.
-
-The PHP app stores the values when new POST requests are received and also serves the pages that display the information.
-
+Arduino client and PHP Server project is a simple communication system designed with Arduino and PHP programming language.
+The server side is programmed with PHP(little bit of javascript) programming language, while arduino-client side is programmed with c/c++ programing language.
+ 
+The objective of this project was to programmed any Arduino compactable microcontroller(ESP8266) to read a sensor parameter(temperature and humidity) and Post it to the server to be stored and displayed.The perpherals connected to the microntroller pin(D5,D6 and D7) is also controll from the PHP server-side.
 
 The Arduino it's configured to use a Dynamic IP Address, in order to solve any conflicting IP issues, and also to work easily with most home networks/routers.
 
 This project is divided in 2 main parts:
-
 ### PART 1
-- Arduino Web server-client Application: reads the sensor values and sends them to the webserver(php) and also      recieve a post request from the server(php) to control D5,D6 and D7 of the  microcontroller(NodeMcu)
-- PHP/MySQL Application: handles the POST requests that are sent to the server and serves the pages to clients who connect 
+- Arduino Web server-client Application: reads the sensor values(D2) and sends them to the  webserver(php) and also recieve a POST request message from the server(php) to control D5,D6 and D7 of the  microcontroller(NodeMcu)
 ### PART 2
-- Data Visualization: The PHP application will use the Javascript Framework D3.js to display the values stored in the DB with graphics. It will allow to navigate to the past days to observe the readings and also real time based temperature and humidty reading on the guage HTML ellements and it also contain push button element that controls   D5,D6 and D7 pins of the microcontroller
-
+- Data Visualization: The PHP application with the help of Javascript, HTML and CSS to display the values with it coresponding date and time stored in the DB with graphics. The graphics is divide into two display, the real tive data visualizationa with control switch buttons to control the microcontroller pins.It allow navigation to the past days to observe the readings and also real time based temperature and humidity.
 
 ## REQUIREMENTS
 
