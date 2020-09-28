@@ -66,6 +66,8 @@ Software
 ## File Structure
 Within the download you'll find the following directories and files:
 
+
+```
 IOTBASESMARTHOME/
 |-------|phpserver_client side image/
 |             |---Capture.JPG
@@ -91,6 +93,7 @@ IOTBASESMARTHOME/
 |-----------|arduinoCodeClient/
 |              |---arduinoCodeClient.ino
 |------------|databaseFile.sql
+```
 
 
 
