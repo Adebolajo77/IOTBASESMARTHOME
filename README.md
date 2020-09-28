@@ -45,7 +45,8 @@ Jumper wires
 
 Software
 - To use this project, you need access to a web server ( can be from a free hosting company ) with capability to run PHP applications and also to create databases. ( possibly cPanel with phpMyAdmin)
-
+data base needed with four column--ID(INT KEY AUTO INCREMENT)  temperature(INT)
+ humidity(INT) and date(timestamp)--configuartions needed in (home.php and user data.php)
 
 
 
