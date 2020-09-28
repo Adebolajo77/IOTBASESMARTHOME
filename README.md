@@ -1,5 +1,4 @@
 
-# [Documentation]
 
 Arduino client - PHP Server project is a simple communication system designed with Arduino and PHP. PHP acts the server, while arduino acts as the client who communicates to the server. The client makes a post request to the server using an API and the server responds back and also send a post request to the micontroller to controll the peripherals 
 
@@ -15,7 +14,6 @@ The Arduino it's configured to use a Dynamic IP Address, in order to solve any c
 This project is divided in 2 main parts:
 
 ### PART 1
-
 - Arduino Web server-client Application: reads the sensor values and sends them to the webserver(php) and also      recieve a post request from the server(php) to control D5,D6 and D7 of the  microcontroller(NodeMcu)
 - PHP/MySQL Application: handles the POST requests that are sent to the server and serves the pages to clients who connect 
 ### PART 2
@@ -35,9 +33,7 @@ breadboard
 
 4.7K,10K,10K,10K, Ohm resistor
 
-
 LED--x 3 or 3 channel relay module
-
 
 USB cable-for serial base code Uploading
 OTA for over the air code uploading
@@ -45,16 +41,18 @@ OTA for over the air code uploading
 Jumper wires
 
 Software
-
 - To use this project, you need access to a web server ( can be from a free hosting company ) with capability to run PHP applications and also to create databases. ( possibly cPanel with phpMyAdmin)
 
 
-@@ -62,51 +50,55 @@ Software
+
+
+
 ## Table of Contents
 
 * [Quick Start](#quick-start)
-* [Documentation](#documentation)
 * [File Structure](#file-structure)
+
+
 
 
 ## Quick start
@@ -63,13 +61,11 @@ Software
 - [Download from Github](https://github.com/Adebolajo77/IOTBASESMARTHOME/archive/master.zip).
 - Edit `arduinoCodeClient.ino` and edit the WiFi parameters which include SSID and PASSWORD to those of your router. 
 
-## Documentation
 
 
 ## File Structure
 Within the download you'll find the following directories and files:
 
-```
 IOTBASESMARTHOME/
 |-------|phpserver_client side image/
 |             |---Capture.JPG
@@ -97,8 +93,12 @@ IOTBASESMARTHOME/
 |------------|databaseFile.sql
 
 
+
 ## Technical Support or Questions
 
-If you have questions or need help integrating the product please [contact me](git clone https://github.com/Adebolajo77/IOTBASESMARTHOME) instead of opening an issue.
+If you have questions or need help integrating the product please [contact me](https://github.com/Adebolajo77/IOTBASESMARTHOME/issues) instead of opening an issue.
+
+
+
 
 
